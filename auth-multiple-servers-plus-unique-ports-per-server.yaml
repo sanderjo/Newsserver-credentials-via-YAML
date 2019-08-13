@@ -2,12 +2,12 @@ username: JohnDoe
 password: Very Secret 123
 # strange servers: each has its own ports in use:
 servers:
-    - server: newsreader.eweka.nl
-      nntp: 119, 1119
-      nntps: 563
-    - server: newsreader22.eweka.nl
-      nntp: 1119
-      nntps: 563, 443
+- server: newsreader.eweka.nl
+  nntp: 119, 1119
+  nntps: 563
+- server: newsreader22.eweka.nl
+  nntp: 1119
+  nntps: 563, 443
 maxconnections: 20
 
 
