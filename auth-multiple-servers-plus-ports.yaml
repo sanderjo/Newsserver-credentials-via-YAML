@@ -1,0 +1,11 @@
+username: JohnDoe
+password: Very Secret 123
+servers:
+- newsreader.eweka.nl
+- newsreader12.eweka.nl
+- newsreader23.eweka.nl
+maxconnections: 20
+# only works if all servers use the same ports:
+nntp: 119, 1119
+nntps: 564, 80, 443
+

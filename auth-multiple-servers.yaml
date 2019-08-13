@@ -1,0 +1,9 @@
+username: JohnDoe
+password: Very Secret 123
+servers:
+- newsreader.eweka.nl
+- newsreader12.eweka.nl
+- newsreader23.eweka.nl
+maxconnections: 20
+
+

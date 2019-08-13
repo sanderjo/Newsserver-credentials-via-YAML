@@ -1,0 +1,8 @@
+username: JohnDoe
+password: Very Secret 123
+server: newsreader.eweka.nl
+nntp: 119, 1119
+nntps: 564, 80, 443
+maxconnections: 20
+
+
