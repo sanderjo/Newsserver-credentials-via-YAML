@@ -1,0 +1,16 @@
+username: JohnDoe
+password: Very Secret 123
+# working, but ugly colons ...
+servers:
+  news1.com:
+    nntp: 123, 123
+    nttps: 3333, 4444
+  news2.com:
+    nntp: 123, 123
+    nttps: 3333, 4444
+  news4.com:
+    nntp: 22222
+maxconnections: 20
+
+
+
