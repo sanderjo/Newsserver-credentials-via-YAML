@@ -22,3 +22,19 @@ with open(filename) as f:
 
     print(data)
 
+
+# now look at "servers"
+try:
+	# print(data["servers"])
+	print("\nDetails of 'servers':")
+	for i in data["servers"]:
+		print(i)
+		if isinstance(i,dict):
+			# i is a dictionary, so print elements
+			for x in i:
+				print(x)
+		else:
+			# i is not a dictionary, so ... just print it:
+			print(i)
+except:
+	print("No 'servers' defined")
